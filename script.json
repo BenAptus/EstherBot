@@ -1,6 +1,6 @@
 {
     "BOT": "bot you",
-    "HELLO": "Greetings! I am Ben Bolin's personal bot. Ben is a law student in Kansas City with an undergraduate degree in Physics.",
+    "HELLO": "Greetings! I am Ben Bolin's personal bot. Ben is a law student in Kansas City. \n!Want to know more about me (bots) or Ben? %[I'm here for the bot] (postback:here_for_the_bot) %[Learn about Esther](postback:learn_about_esther) %[One random fact!](postback:random_fact)",
     "TELL HER": "Let's tweet @ Bolin",
     "I LOVE YOU": "Awh, shucks! I love you too!",
     "CONNECT ME": "",
