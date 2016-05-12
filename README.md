@@ -1,5 +1,5 @@
-# EstherBot built using the Smooch Bot example
-If you want a slightly more sophisticated setup and are comfortable using the console then go see the original here: https://github.com/smooch/smooch-bot-example 
+# BOLINBOT is based on Estherbot, an improvement to the Smoochbot example code
+This bot is an improvement in design, flow, and conversation to Estherbot. Check out the original steps below!
 
 Or if you want to test out EstherBot live go say hi on your platform of choice:
 http://estherbot.com
