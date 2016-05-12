@@ -1,6 +1,6 @@
 {
     "BOT": "bot you",
-    "HELLO": "Greetings!\nI am Ben Bolin's personal bot. Ben is a law student in Kansas City. \n! [Ben](https://github.com/BenAptus/EstherBot/blob/master/img/Bolin.jpg.jpg) \nWant to know more about bots or Ben? %[I'm here for the bot](postback:here_for_the_bot) %[Learn about Ben](postback:learn_about_Ben) %[One random fact!](postback:random_fact)",
+    "HELLO": "Greetings!\nI am Ben Bolin's personal bot. Ben is a law student in Kansas City. \n! [Ben](https://raw.githubusercontent.com/BenAptus/EstherBot/master/img/Bolin.jpg.jpg) \nWant to know more about bots or Ben? %[I'm here for the bot](postback:here_for_the_bot) %[Learn about Ben](postback:learn_about_Ben) %[One random fact!](postback:random_fact)",
     "I'M HERE FOR THE BOT": "I thought so. \nBots are the future. Facebook, Google, H&M and more are betting chatbots (like this) are the future of interacting with clients. \nWant to check out other bots?",
     "FUCK": "No thank you",
     "FUCK YOU": "Bless you.",
