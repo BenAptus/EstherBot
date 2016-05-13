@@ -43,7 +43,7 @@ module.exports = new Script({
                 }
 
                 if (!_.has(scriptRules, upperText)) {
-                    return bot.say(`I didn't understand that.`).then(() => 'speak');
+                    return bot.say(`I didn't understand that. I am good at structured conversations but stickers, emoji, and sentences confuse me. Say 'more' to chat about something else.`).then(() => 'speak');
                 }
 
                 var response = scriptRules[upperText];
@@ -54,9 +54,11 @@ module.exports = new Script({
                     line = line.trim();
                     p = p.then(function() {
                         console.log(line);
-                        return bot.say(line);
+                        return wait(35).then(function() {
+                            return bot.say(line);
+                        });
                     });
-                })
+                });
 
                 return p.then(() => 'speak');
             }
