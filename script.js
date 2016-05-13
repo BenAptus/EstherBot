@@ -10,6 +10,12 @@ module.exports = new Script({
         //prompt: (bot) => bot.say('Beep boop...'),
         receive: () => 'processing'
     },
+    start: {
+         receive: (bot) => {
+             return bot.say('So you want to learn more about Ben? Just say HELLO to get started.')
+                 .then(() => 'speak');
+         }
+    },
 
     speak: {
         receive: (bot, message) => {
