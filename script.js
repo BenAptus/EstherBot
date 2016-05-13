@@ -11,13 +11,6 @@ module.exports = new Script({
         receive: () => 'processing'
     },
 
-    start: {
-        receive: (bot) => {
-            return bot.say('So you want to learn more about Ben? Just say HELLO to get started.')
-                .then(() => 'speak');
-        }
-    },
-
     speak: {
         receive: (bot, message) => {
 
