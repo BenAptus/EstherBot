@@ -10,12 +10,6 @@ module.exports = new Script({
         //prompt: (bot) => bot.say('Beep boop...'),
         receive: () => 'processing'
     },
-    start: {
-         receive: (bot) => {
-             return bot.say('So you want to learn more about Ben? Just say HELLO to get started.')
-                 .then(() => 'speak');
-         }
-    },
 
     speak: {
         receive: (bot, message) => {
@@ -43,7 +37,7 @@ module.exports = new Script({
                 }
 
                 if (!_.has(scriptRules, upperText)) {
-                    return bot.say(`I didn't understand that. I am good at structured conversations but stickers, emoji, and sentences confuse me. Say 'more' to chat about something else.`).then(() => 'speak');
+                    return bot.say(`I didn't understand that.`).then(() => 'speak');
                 }
 
                 var response = scriptRules[upperText];
@@ -54,11 +48,9 @@ module.exports = new Script({
                     line = line.trim();
                     p = p.then(function() {
                         console.log(line);
-                        return wait(35).then(function() {
-                            return bot.say(line);
-                        });
+                        return bot.say(line);
                     });
-                });
+                })
 
                 return p.then(() => 'speak');
             }
