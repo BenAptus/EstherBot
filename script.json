@@ -1,7 +1,7 @@
 {
     "BOT": "bot you",
-    "HELLO": "Greetings!\nI am Ben Bolin's personal bot. Ben is a law student in Kansas City. \n![Ben](https://raw.githubusercontent.com/BenAptus/EstherBot/master/img/Bolin.jpg.jpg)\nWant to know more about bots or Ben? %[Learn about Ben](postback:Learn_about_Ben) %[Learn About Bots](postback:Learn_About_Bots) %[One random fact!](postback:one_random_fact)",
-    "GO BACK": "What else would you like to learn about? %[Learn About Bots](postback:Learn_About_Bots) %[Learn about Ben](postback:Learn_about_Ben) %[One random fact!](postback:One_Random_Fact)",
+    "HELLO": "Greetings!\nI am Ben Bolin's personal bot. Ben is a law student in Kansas City. \n![Ben](https://raw.githubusercontent.com/BenAptus/EstherBot/master/img/Bolin.jpg.jpg)\nWant to know more about bots or Ben? %[Learn about Ben](postback:Learn_about_Ben) %[Learn About Bots](postback:Learn_About_Bots) %[One random fact](postback:one_random_fact)",
+    "GO BACK": "What else would you like to learn about? %[Learn About Bots](postback:Learn_About_Bots) %[Learn about Ben](postback:Learn_about_Ben) %[One random fact](postback:One_Random_Fact)",
     "NAH": "What else would you like to learn about? %[Learn About Bots](postback:Learn_About_Bots) %[Learn about Ben](postback:Learn_about_Ben) %[One random fact!](postback:random_fact)",
     "ONE RANDOM FACT": "Ben only has one kidney! While most law students burn the midnight oil with caffeine, Ben has to monitor what he drinks. So instead of coffee, Ben stays energetic on pure determination!\n Want to chat about something else? %[I want to chat with Ben](postback:I_want_to_chat_with_Ben) %[Go Back](postback:Go_back)",
     "I WANT TO CHAT WITH BEN": "Awesome! Ben loves getting introductions from BolinBot. Feel free to tweet at him, dont be shy! Or, you can connect with him directly. Remember, Ben isn't as prompt as a chatbot (like me)! %[Tweet @BenBolin](http://bit.ly/BolinIntro) %[Connect Me Live](postback:connect_me)",
